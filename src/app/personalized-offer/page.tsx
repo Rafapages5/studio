@@ -11,6 +11,7 @@ import { CheckCircle, XCircle, ExternalLink, Gift, Copy } from 'lucide-react';
 import Link from 'next/link';
 import { useToast } from '@/hooks/use-toast';
 import { Skeleton } from '@/components/ui/skeleton';
+import { Input } from '@/components/ui/input';
 
 export default function PersonalizedOfferPage() {
   const [offer, setOffer] = useState<GenerateLandingPageOfferOutput | null>(null);
